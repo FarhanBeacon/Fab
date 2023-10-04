@@ -1,0 +1,101 @@
+html{
+    background-color: bisque;
+}
+
+.login>li{
+    list-style: none;
+    display: inline;
+}
+
+.login li a{
+    text-decoration: none;
+    color: azure;
+    background-color: black;
+    border: 3px solid lightcoral;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 3px 3px 3px gray;
+    margin: auto 5px auto auto;
+}
+
+header{
+    display: flex;
+    height: 80px;
+    padding-top: 10px;
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline wavy purple;
+    margin: 0 100px 0 200px;
+}
+
+#search{
+    border-radius: 5px;
+    height: 25px;
+    margin-top: 40px;
+}
+
+article > h3{
+    text-decoration:underline dotted rebeccapurple;
+}
+
+main{
+    display: flex;
+    padding: 10px;
+}
+
+section{
+    padding: 10px;
+    /* border: 3px solid skyblue; */
+}
+
+nav{
+    margin-right: 2px;
+    border: 3px solid gold;
+    background-color: black;
+    width: 900px;
+    background-image: url("/media/png-transparent-navigation-bar-navigation-bar-suspension-bar-navigation-thumbnail.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+nav>ul li{
+    list-style: none;
+    padding: 8px;
+    margin: 10px 10px 10px 11px;
+}
+
+main ul>li a{
+    color: azure;
+    text-align: center;
+    padding: 2px;
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+ul{
+    padding: 30px;
+}
+ nav a:hover, .login>li a:hover{
+    background-color: aliceblue;
+    color: black;
+    border: 3px solid skyblue;
+ }
+
+ p{
+    text-align: justify;
+ }
+
+ .bg-img{
+    margin-bottom: 60px;
+ }
+
+ footer{
+    color: azure;
+    background-color: black;
+    height: 60px;
+    text-align: center;
+    padding-top: 25px;
+ }
