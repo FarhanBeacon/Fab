@@ -1,13 +1,23 @@
-html{
-    background-color: bisque;
+* {
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Sofia Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
 }
 
-.login>li{
+body {
+    background-color: rgb(255, 228, 196);
+    background: linear-gradient(to bottom, rgba(255, 228, 196, 1) 85%, rgba(255, 228, 196, 0));
+}
+
+/* Styles for Header section */
+
+.login>li {
     list-style: none;
     display: inline;
 }
 
-.login li a{
+.login li a {
     text-decoration: none;
     color: azure;
     background-color: black;
@@ -18,84 +28,87 @@ html{
     margin: auto 5px auto auto;
 }
 
-header{
+header {
     display: flex;
-    height: 80px;
-    padding-top: 10px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 100px 30px 70px;
+    /* background: url('../media/gradient1.png'); */
+    background-image: linear-gradient(to right, rgba(0, 0, 0, .3), rgba(0, 0, 0, 0));
 }
 
-h1{
-    text-align: center;
+header h1 {
     text-decoration: underline wavy purple;
-    margin: 0 100px 0 200px;
+    text-shadow: 1px 1px 1px gray;
+    font-size: 45px;
 }
 
-#search{
+#search {
     border-radius: 5px;
-    height: 25px;
-    margin-top: 40px;
+    padding: 5px;
+    border: 3px solid skyblue;
 }
 
-article > h3{
-    text-decoration:underline dotted rebeccapurple;
-}
-
-main{
+/* Styles for Main section */
+main {
+    border-top: 1px solid black;
     display: flex;
     padding: 10px;
 }
 
-section{
-    padding: 10px;
-    /* border: 3px solid skyblue; */
-}
-
-nav{
-    margin-right: 2px;
-    border: 3px solid gold;
-    background-color: black;
-    width: 900px;
-    background-image: url("/media/png-transparent-navigation-bar-navigation-bar-suspension-bar-navigation-thumbnail.png");
+.main-nav {
+    width: auto;
+    /* border: 4px solid black; */
+    background-image: url('../media/nav.png');
     background-repeat: no-repeat;
     background-position: center;
+    width: 1300px;
 }
 
-nav>ul li{
+.main-nav-ul li,
+a {
+    color: whitesmoke;
     list-style: none;
-    padding: 8px;
-    margin: 10px 10px 10px 11px;
-}
-
-main ul>li a{
-    color: azure;
-    text-align: center;
-    padding: 2px;
+    font-size: 25px;
     text-decoration: none;
-    border: 2px solid white;
-    border-radius: 5px;
 }
 
-ul{
-    padding: 30px;
+.main-nav ul {
+    text-align: center;
+    padding: 90px 5px 0px 0px;
 }
- nav a:hover, .login>li a:hover{
+
+.main-nav-ul li {
+    margin-bottom: 53px;
+}
+
+nav a:hover,
+.login>li a:hover {
     background-color: aliceblue;
     color: black;
     border: 3px solid skyblue;
- }
+    border-radius: 5px;
+}
 
- p{
+.main-section {
+    padding: 20px 100px;
+}
+
+.main-section article p {
+    font-size: 18px;
+    margin-bottom: 20px;
     text-align: justify;
- }
+}
 
- .bg-img{
-    margin-bottom: 60px;
- }
+.main-section article h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
 
- footer{
-    color: azure;
-    background-color: black;
-    height: 60px;
+/* Styles for Footer section */
+footer {
+    color: black;
+    /* background-color: black; */
     text-align: center;
-    padding-top: 25px;
- }
+    padding: 70px;
+}
